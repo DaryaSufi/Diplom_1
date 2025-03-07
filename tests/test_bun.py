@@ -1,4 +1,3 @@
-from Diplom_1.bun import Bun
 class TestBun:
     def tets_get_name(self, create_bun):
         Bun=create_bun

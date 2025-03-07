@@ -1,5 +1,7 @@
 from Diplom_1.database import Database
 from Diplom_1.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
+
+
 class TestDatabase:
     def test_available_buns(self):
         Dt=Database()

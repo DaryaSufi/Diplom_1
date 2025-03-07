@@ -1,4 +1,5 @@
 from Diplom_1.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
+
 class TestIngridients:
     def test_get_price_sause(self, create_sauce):
         Sauce = create_sauce

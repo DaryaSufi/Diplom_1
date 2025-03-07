@@ -2,7 +2,6 @@ import pytest
 from Diplom_1.burger import Burger
 from Diplom_1.ingredient_types import INGREDIENT_TYPE_SAUCE, INGREDIENT_TYPE_FILLING
 from unittest.mock import Mock
-
 class TestBurger:
     create_bun = ('Краторная булка N-200i', 1255)
     create_sauce  = (INGREDIENT_TYPE_SAUCE,'Соус Spicy-X', 90)

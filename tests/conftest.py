@@ -9,7 +9,7 @@ def create_sauce():
 
 @pytest.fixture()
 def create_filling():
-    filling=Ingredient(INGREDIENT_TYPE_FILLING,'Мясо бессмертных моллюсков Protostomia', 1337)
+    filling=Ingredient(INGREDIENT_TYPE_FILLING, 'Мясо бессмертных моллюсков Protostomia', 1337)
     return filling
 
 @pytest.fixture()
